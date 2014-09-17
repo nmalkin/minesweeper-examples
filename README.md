@@ -61,9 +61,13 @@ What to change
 There are three main things that you should change in these examples:
 
  - The name of the game:
+  
   ```solver = PythonSolver("diogo@squareup.com") # XXX: Replace this with your own unique name```
- - The method that executes your logic:
-  ```solver_alg = solver.random_solve # XXX: Replace this with your own solver method```
- - The total number of games per execution
+ 
+- The method that executes your logic:
+  
+ ```solver_alg = solver.random_solve # XXX: Replace this with your own solver method```
+- The total number of games per execution:
+ 
   ```GAMES = 1 # XXX: replace this with the number of games that you want to play```
 
