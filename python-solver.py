@@ -20,7 +20,7 @@ class PythonSolver:
     self.board_size["x"] = x
     self.board_size["y"] = y
     self.board_mine_count = board_string[2]
-    self.board = [[None for a in xrange(x)] for a in xrange(y)]
+    self.board = [[None for a in xrange(y)] for a in xrange(x)]
 
   def print_board(self):
     """Prints the board to STDOUT"""
