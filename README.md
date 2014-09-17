@@ -1,14 +1,14 @@
 Minesweeper Examples
 ===========
 
-This are reference implementations of the [Minesweeper Square Challenge](http://minesweeper.nm.io/)
+These are reference implementations of the [Minesweeper Square Challenge](http://minesweeper.nm.io/).
 
-They all output the same interface and implement a simple solver that tries to randomly guess where all the open coordinates are.
+They all implement a simple solver that tries to randomly guess where all the open coordinates are.
 
 How to run
 ---------
 
-To run any of these solvers you just need to execute the scripts without arguments. For example for Python and Ruby:
+To run any of these solvers you just need to execute the scripts without arguments. For example for Python:
 
 ```
 $ python python-solver.py
@@ -30,7 +30,10 @@ $ python python-solver.py
 ? ? ? ? ? ?
 
 Final Results: 0 Wins, 1 Losses
+```
+Or for Ruby:
 
+```
 $ ruby ruby-solver.rb
 # Starting new Game
 Random Guess: (2,2): 1
