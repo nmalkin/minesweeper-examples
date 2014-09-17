@@ -71,3 +71,13 @@ There are three main things that you should change in these examples:
  
   ```GAMES = 1 # XXX: replace this with the number of games that you want to play```
 
+Java example
+------------
+
+The Java example is a little bit different: it is meant to be used in
+conjunction with [the runner](https://github.com/nmalkin/minesweeper-client).
+Here's how to use it:
+
+    javac Minesweeper.java
+    /path/to/minesweeper/helper/minesweeper -name="diogo@squareup.com" java Minesweeper
+
